@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:wght@300&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Allura&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap");
 
 body {
   background-color: #c2d3e0;
@@ -82,11 +83,11 @@ body {
   top: 50%;
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
-  border: 3px solid #164662;
+  border: 1px solid #164662;
   width: 85%;
   height: 45%;
   display: none;
-  background-color: #dae6f0;
+  /* background-color: #dae6f0; */
 }
 
 .moldura-2 {
@@ -95,10 +96,10 @@ body {
   top: 50%;
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
-  border: 3px solid #164662;
+  border: 1px solid #164662;
   width: 92%;
   height: 92%;
-  background-color: #dae6f0;
+  /* background-color: #dae6f0; */
 }
 
 .moldura-3 {
@@ -110,21 +111,22 @@ body {
   border: 3px solid #fad390;
   width: 90%;
   height: 90%;
-  background-color: #dae6f0;
+  background-color: white;
   text-align: right;
 }
 
 .mensagem {
-  font-family: "Dancing Script", cursive;
-  font-size: 36px;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 28px;
   color: #164662;
   text-align: center;
   display: none;
+  margin-top: 20%;
 }
 
 .mensagem-by {
   font-family: "Dancing Script", cursive;
-  font-size: 36px;
+  font-size: 28px;
   color: #164662;
   position: absolute;
   right: 5%;
@@ -132,12 +134,19 @@ body {
   display: none;
 }
 
-.flor {
-  font-size: 36px;
-  color: #164662;
+.vinte {
   position: absolute;
-  left: -5%;
+  left: -3%;
   bottom: -5%;
   width: 30%;
+  display: none;
+}
+
+.lavanda {
+  position: absolute;
+  left: -5%;
+  bottom: -23%;
+  width: 40%;
+  z-index: 1;
   display: none;
 }
